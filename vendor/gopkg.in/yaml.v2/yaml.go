@@ -472,7 +472,7 @@ func isZero(v reflect.Value) bool {
 // by this function.
 //
 // The default formatting of v2 was erroneously changed in v2.3.0 and reverted
-// in v2.4.0, at which point this function was introduced to help migration.
+// in v2.4.1, at which point this function was introduced to help migration.
 func FutureLineWrap() {
 	disableLineWrapping = true
 }

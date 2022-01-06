@@ -3586,7 +3586,7 @@ Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Path: fixtures/sys/class/fc_host/host0/symbolic_name
 Lines: 1
-Emulex SN1100E2P FV12.4.270.3 DV12.4.0.0. HN:gotest. OS:Linux
+Emulex SN1100E2P FV12.4.270.3 DV12.4.1.0. HN:gotest. OS:Linux
 Mode: 644
 # ttar - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Directory: fixtures/sys/class/infiniband

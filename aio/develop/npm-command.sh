@@ -48,8 +48,8 @@ else
     KUBECTL_PID=$(ps -A|grep 'kubectl'|tr -s ' '|cut -d ' ' -f 2)
     echo "Kill kubectl ${KUBECTL_PID}"
     kill ${KUBECTL_PID}
-    nohup kubectl proxy --address 127.0.0.1 --port 8001 >/tmp/kubeproxy.log 2>&1 &
-    export K8S_DASHBOARD_SIDECAR_HOST="http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/dashboard-metrics-scraper:/proxy/"
+    nohup kubectl proxy --address 127.0.0.1 --port 8000 >/tmp/kubeproxy.log 2>&1 &
+    export K8S_DASHBOARD_SIDECAR_HOST="http://localhost:8000/api/v1/namespaces/kubernetes-dashboard/services/dashboard-metrics-scraper:/proxy/"
   fi
   # Start dashboard.
   echo "Start dashboard"

@@ -37,13 +37,13 @@ spec:
       - name: dashboard-metrics-scraper-head
         image: kubernetesdashboarddev/dashboard-metrics-sidecar:latest
         ports:
-        - containerPort: 8001
+        - containerPort: 8000
           protocol: TCP
         livenessProbe:
           httpGet:
             scheme: HTTP
             path: /
-            port: 8001
+            port: 8000
           initialDelaySeconds: 30
           timeoutSeconds: 30
         securityContext:

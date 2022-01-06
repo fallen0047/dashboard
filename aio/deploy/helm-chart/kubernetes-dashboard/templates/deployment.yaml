@@ -71,7 +71,7 @@ spec:
           - --auto-generate-certificates
 {{- end }}
 {{- if .Values.metricsScraper.enabled }}
-          - --sidecar-host=http://127.0.0.1:8001
+          - --sidecar-host=http://127.0.0.1:8000
 {{- else }}
           - --metrics-provider=none
 {{- end }}
@@ -131,13 +131,13 @@ spec:
 {{ toYaml . | nindent 10 }}
 {{- end }}
         ports:
-          - containerPort: 8001
+          - containerPort: 8000
             protocol: TCP
         livenessProbe:
           httpGet:
             scheme: HTTP
             path: /
-            port: 8001
+            port: 8000
           initialDelaySeconds: {{ .Values.livenessProbe.initialDelaySeconds }}
           timeoutSeconds: {{ .Values.livenessProbe.timeoutSeconds }}
         volumeMounts:

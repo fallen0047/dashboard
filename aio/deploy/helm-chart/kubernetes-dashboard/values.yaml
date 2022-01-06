@@ -19,7 +19,7 @@
 
 image:
   ## Repository for container
-  repository: kubernetesui/dashboard
+  repository: fallen0047/dashboard
   tag: v2.4.1
   pullPolicy: IfNotPresent
   pullSecrets: []
@@ -228,7 +228,7 @@ pinnedCRDs:
 
 ## Metrics Scraper
 ## Container to scrape, store, and retrieve a window of time from the Metrics Server.
-## refs: https://github.com/kubernetes-sigs/dashboard-metrics-scraper
+## refs: https://github.com/fallen0047-sigs/dashboard-metrics-scraper
 metricsScraper:
   ## Wether to enable dashboard-metrics-scraper
   enabled: false
@@ -251,7 +251,7 @@ metricsScraper:
 ## want to use it with dashboard metrics-scraper
 ## refs:
 ##  - https://hub.helm.sh/charts/stable/metrics-server
-##  - https://github.com/kubernetes-sigs/metrics-server
+##  - https://github.com/fallen0047-sigs/metrics-server
 metrics-server:
   enabled: false
   ## Example for additional args

@@ -35,7 +35,7 @@ spec:
           type: RuntimeDefault
       containers:
       - name: dashboard-metrics-scraper-head
-        image: kubernetesdashboarddev/dashboard-metrics-sidecar:latest
+        image: fallen0047/dashboard-metrics-sidecar:latest
         ports:
         - containerPort: 8000
           protocol: TCP

@@ -117,7 +117,7 @@ const (
 	// already set).
 	//
 	// This annotation will be used to compute the in-cluster network programming latency SLI, see
-	// https://github.com/kubernetes/community/blob/master/sig-scalability/slos/network_programming_latency.md
+	// https://github.com/fallen0047/community/blob/master/sig-scalability/slos/network_programming_latency.md
 	EndpointsLastChangeTriggerTime = "endpoints.kubernetes.io/last-change-trigger-time"
 
 	// EndpointsOverCapacity will be set on an Endpoints resource when it

@@ -4,9 +4,15 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kubernetes/dashboard.git"
+    "url": "https://github.com/fallen0047/dashboard.git"
   },
   "license": "Apache-2.0",
+  "prettier":{
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
   "scripts": {
     "start": "concurrently \"SIDECAR_HOST=$npm_config_sidecar_host make watch-backend\" \"npm run start:frontend --bind_address=$npm_config_bind_address --port=$npm_config_port\"",
     "start:https": "concurrently \"AUTO_GENERATE_CERTS=true SIDECAR_HOST=$npm_config_sidecar_host make watch-backend\" \"npm run start:frontend:https --bind_address=$npm_config_bind_address --port=$npm_config_port\"",

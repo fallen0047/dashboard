@@ -19,11 +19,11 @@ import (
 
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/kubernetes/dashboard/src/app/backend/api"
-	metricapi "github.com/kubernetes/dashboard/src/app/backend/integration/metric/api"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/common"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/dataselect"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/event"
+	"github.com/fallen0047/dashboard/src/app/backend/api"
+	metricapi "github.com/fallen0047/dashboard/src/app/backend/integration/metric/api"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/common"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/dataselect"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/event"
 )
 
 // getRestartCount return the restart count of given pod (total number of its containers restarts).
@@ -36,7 +36,7 @@ func getRestartCount(pod v1.Pod) int32 {
 }
 
 // getPodStatus returns status string calculated based on the same logic as kubectl
-// Base code: https://github.com/kubernetes/kubernetes/blob/master/pkg/printers/internalversion/printers.go#L734
+// Base code: https://github.com/fallen0047/kubernetes/blob/master/pkg/printers/internalversion/printers.go#L734
 func getPodStatus(pod v1.Pod) string {
 	restarts := 0
 	readyContainers := 0

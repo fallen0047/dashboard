@@ -1,11 +1,11 @@
 # Kubernetes Dashboard
 
-[![Continuous Integration](https://github.com/kubernetes/dashboard/workflows/Continuous%20Integration/badge.svg)](https://github.com/kubernetes/dashboard/actions?query=workflow%3A%22Continuous+Integration%22)
-[![Continuous Deployment](https://github.com/kubernetes/dashboard/workflows/Continuous%20Deployment/badge.svg)](https://github.com/kubernetes/dashboard/actions?query=workflow%3A%22Continuous+Deployment%22)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kubernetes/dashboard)](https://goreportcard.com/report/github.com/kubernetes/dashboard)
+[![Continuous Integration](https://github.com/fallen0047/dashboard/workflows/Continuous%20Integration/badge.svg)](https://github.com/fallen0047/dashboard/actions?query=workflow%3A%22Continuous+Integration%22)
+[![Continuous Deployment](https://github.com/fallen0047/dashboard/workflows/Continuous%20Deployment/badge.svg)](https://github.com/fallen0047/dashboard/actions?query=workflow%3A%22Continuous+Deployment%22)
+[![Go Report Card](https://goreportcard.com/badge/github.com/fallen0047/dashboard)](https://goreportcard.com/report/github.com/fallen0047/dashboard)
 [![Coverage Status](https://codecov.io/github/kubernetes/dashboard/coverage.svg?branch=master)](https://codecov.io/github/kubernetes/dashboard?branch=master)
-[![GitHub release](https://img.shields.io/github/release/kubernetes/dashboard.svg)](https://github.com/kubernetes/dashboard/releases/latest)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kubernetes/dashboard/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/kubernetes/dashboard.svg)](https://github.com/fallen0047/dashboard/releases/latest)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/fallen0047/dashboard/blob/master/LICENSE)
 
 Kubernetes Dashboard is a general purpose, web-based UI for Kubernetes clusters. It allows users to manage applications running in the cluster and troubleshoot them, as well as manage the cluster itself.
 
@@ -42,7 +42,7 @@ To find out how to create sample user and log in follow [Creating sample user](d
 
 **NOTE:**
 * Kubeconfig Authentication method does not support external identity providers or certificate-based authentication.
-* [Metrics-Server](https://github.com/kubernetes-sigs/metrics-server) has to be running in the cluster for the metrics and graphs to be available. Read more about it in [Integrations](docs/user/integrations.md) guide.
+* [Metrics-Server](https://github.com/fallen0047-sigs/metrics-server) has to be running in the cluster for the metrics and graphs to be available. Read more about it in [Integrations](docs/user/integrations.md) guide.
 
 ## Documentation
 
@@ -60,8 +60,8 @@ You can reach the maintainers of this project at:
 
 * [**#sig-ui on Kubernetes Slack**](https://kubernetes.slack.com)
 * [**kubernetes-sig-ui mailing list** ](https://groups.google.com/forum/#!forum/kubernetes-sig-ui)
-* [**Issue tracker**](https://github.com/kubernetes/dashboard/issues)
-* [**SIG info**](https://github.com/kubernetes/community/tree/master/sig-ui)
+* [**Issue tracker**](https://github.com/fallen0047/dashboard/issues)
+* [**SIG info**](https://github.com/fallen0047/community/tree/master/sig-ui)
 * [**Roles**](ROLES.md)
 
 ### Contribution
@@ -74,7 +74,7 @@ Participation in the Kubernetes community is governed by the [Kubernetes Code of
 
 ## License
 
-[Apache License 2.0](https://github.com/kubernetes/dashboard/blob/master/LICENSE)
+[Apache License 2.0](https://github.com/fallen0047/dashboard/blob/master/LICENSE)
 
 ----
-_Copyright 2019 [The Kubernetes Dashboard Authors](https://github.com/kubernetes/dashboard/graphs/contributors)_
+_Copyright 2019 [The Kubernetes Dashboard Authors](https://github.com/fallen0047/dashboard/graphs/contributors)_

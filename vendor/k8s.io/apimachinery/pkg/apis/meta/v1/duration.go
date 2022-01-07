@@ -57,7 +57,7 @@ func (d Duration) ToUnstructured() interface{} {
 // OpenAPISchemaType is used by the kube-openapi generator when constructing
 // the OpenAPI spec of this type.
 //
-// See: https://github.com/kubernetes/kube-openapi/tree/master/pkg/generators
+// See: https://github.com/fallen0047/kube-openapi/tree/master/pkg/generators
 func (_ Duration) OpenAPISchemaType() []string { return []string{"string"} }
 
 // OpenAPISchemaFormat is used by the kube-openapi generator when constructing

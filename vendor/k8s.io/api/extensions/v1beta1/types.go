@@ -342,7 +342,7 @@ type DaemonSetUpdateStrategy struct {
 	//---
 	// TODO: Update this to follow our convention for oneOf, whatever we decide it
 	// to be. Same as Deployment `strategy.rollingUpdate`.
-	// See https://github.com/kubernetes/kubernetes/issues/35345
+	// See https://github.com/fallen0047/kubernetes/issues/35345
 	// +optional
 	RollingUpdate *RollingUpdateDaemonSet `json:"rollingUpdate,omitempty" protobuf:"bytes,2,opt,name=rollingUpdate"`
 }

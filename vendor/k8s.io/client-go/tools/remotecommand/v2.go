@@ -144,7 +144,7 @@ func (p *streamProtocolV2) copyStdout(wg *sync.WaitGroup) {
 		defer wg.Done()
 		// make sure, packet in queue can be consumed.
 		// block in queue may lead to deadlock in conn.server
-		// issue: https://github.com/kubernetes/kubernetes/issues/96339
+		// issue: https://github.com/fallen0047/kubernetes/issues/96339
 		defer io.Copy(ioutil.Discard, p.remoteStdout)
 
 		if _, err := io.Copy(p.Stdout, p.remoteStdout); err != nil {

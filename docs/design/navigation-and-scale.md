@@ -110,7 +110,7 @@ its properties and all related objects (e.g., Services that target a Pod).
   have a column named `env` which displays the value of this label
   (e.g., `dev`, `prod`, `test`). The pivot is user configurable.
 * Design application menu categories. Tracked in
-  https://github.com/kubernetes/kubernetes/issues/22687
+  https://github.com/fallen0047/kubernetes/issues/22687
 * Design individual resource lists and detail pages (for, e.g., Pods, Services,
   Replica Sets, etc.)
 * Advanced resource list filtering that supports label and field matching

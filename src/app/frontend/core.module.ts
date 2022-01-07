@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import {Inject, NgModule, Optional, SkipSelf} from '@angular/core';
+import { Inject, NgModule, Optional, SkipSelf } from '@angular/core';
 import {CookieService} from 'ngx-cookie-service';
 
 import {DialogsModule} from '@common/dialogs/module';

@@ -137,7 +137,7 @@ func (p *ListPager) List(ctx context.Context, options metav1.ListOptions) (runti
 		options.Continue = m.GetContinue()
 		// Clear the ResourceVersion on the subsequent List calls to avoid the
 		// `specifying resource version is not allowed when using continue` error.
-		// See https://github.com/kubernetes/kubernetes/issues/85221#issuecomment-553748143.
+		// See https://github.com/fallen0047/kubernetes/issues/85221#issuecomment-553748143.
 		options.ResourceVersion = ""
 		// At this point, result is already paginated.
 		paginatedResult = true

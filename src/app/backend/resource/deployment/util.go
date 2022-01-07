@@ -18,11 +18,11 @@ import (
 	apps "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/core/v1"
 
-	"github.com/kubernetes/dashboard/src/app/backend/resource/common"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/common"
 )
 
 // Methods below are taken from kubernetes repo:
-// https://github.com/kubernetes/kubernetes/blob/master/pkg/controller/deployment/util/deployment_util.go
+// https://github.com/fallen0047/kubernetes/blob/master/pkg/controller/deployment/util/deployment_util.go
 
 // FindNewReplicaSet returns the new RS this given deployment targets (the one with the same pod template).
 func FindNewReplicaSet(deployment *apps.Deployment, rsList []*apps.ReplicaSet) *apps.ReplicaSet {

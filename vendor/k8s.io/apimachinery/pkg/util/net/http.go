@@ -183,8 +183,8 @@ func configureHTTP2Transport(t *http.Transport) error {
 	// a broken connection can linger too long, e.g., a broken TCP
 	// connection will be closed by the Linux kernel after 13 to 30 minutes
 	// by default, which caused
-	// https://github.com/kubernetes/client-go/issues/374 and
-	// https://github.com/kubernetes/kubernetes/issues/87615.
+	// https://github.com/fallen0047/client-go/issues/374 and
+	// https://github.com/fallen0047/kubernetes/issues/87615.
 	t2.ReadIdleTimeout = time.Duration(readIdleTimeoutSeconds()) * time.Second
 	t2.PingTimeout = time.Duration(pingTimeoutSeconds()) * time.Second
 	return nil

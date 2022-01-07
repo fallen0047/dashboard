@@ -107,7 +107,7 @@ func getScaleGetter(cfg *rest.Config) (scale.ScalesGetter, error) {
 	drm := restmapper.NewDeferredDiscoveryRESTMapper(dc)
 
 	// Fixes "unable to get full preferred group-version-resource for <resource>: the cache has not been filled yet".
-	// See more: https://github.com/kubernetes/kubernetes/issues/68735
+	// See more: https://github.com/fallen0047/kubernetes/issues/68735
 	drm.Reset()
 
 	return scale.New(restClient, drm, dynamic.LegacyAPIPathResolverFunc, resolver), nil

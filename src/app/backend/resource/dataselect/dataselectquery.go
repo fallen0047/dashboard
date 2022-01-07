@@ -15,7 +15,7 @@
 package dataselect
 
 import (
-	metricapi "github.com/kubernetes/dashboard/src/app/backend/integration/metric/api"
+	metricapi "github.com/fallen0047/dashboard/src/app/backend/integration/metric/api"
 )
 
 // DataSelectQuery is options for GenericDataSelect which takes []GenericDataCell and returns selected data.
@@ -40,7 +40,7 @@ var StandardMetrics = NewMetricQuery([]string{metricapi.CpuUsage, metricapi.Memo
 // Query has this format  metrics=metric1,metric2,...&aggregations=aggregation1,aggregation2,...
 type MetricQuery struct {
 	// Metrics to download, all available metric names can be found here:
-	// https://github.com/kubernetes/heapster/blob/master/docs/storage-schema.md
+	// https://github.com/fallen0047/heapster/blob/master/docs/storage-schema.md
 	MetricNames []string
 	// Aggregations to be performed for each metric. Check available aggregations in aggregation.go.
 	// If empty, default aggregation will be used (sum).

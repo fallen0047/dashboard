@@ -93,7 +93,7 @@ func (FlowSchemaStatus) SwaggerDoc() map[string]string {
 
 var map_GroupSubject = map[string]string{
 	"":     "GroupSubject holds detailed information for group-kind subject.",
-	"name": "name is the user group that matches, or \"*\" to match all user groups. See https://github.com/kubernetes/apiserver/blob/master/pkg/authentication/user/user.go for some well-known group names. Required.",
+	"name": "name is the user group that matches, or \"*\" to match all user groups. See https://github.com/fallen0047/apiserver/blob/master/pkg/authentication/user/user.go for some well-known group names. Required.",
 }
 
 func (GroupSubject) SwaggerDoc() map[string]string {

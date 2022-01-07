@@ -58,7 +58,7 @@ function ensure-cache {
 }
 
 function download-kind {
-  KIND_URL="https://github.com/kubernetes-sigs/kind/releases/download/${KIND_VERSION}/kind-${ARCH}-amd64"
+  KIND_URL="https://github.com/fallen0047-sigs/kind/releases/download/${KIND_VERSION}/kind-${ARCH}-amd64"
   say "\nDownloading kind ${KIND_URL} if it is not cached"
   wget -nc -O ${KIND_BIN} ${KIND_URL}
   chmod +x ${KIND_BIN}

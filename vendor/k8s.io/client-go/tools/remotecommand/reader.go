@@ -30,8 +30,8 @@ import (
 //
 // [1] https://golang.org/pkg/bytes/#Buffer.WriteTo
 // [2] https://golang.org/pkg/io/#Copy
-// [3] https://github.com/kubernetes/kubernetes/blob/90295640ef87db9daa0144c5617afe889e7992b2/vendor/github.com/docker/spdystream/stream.go#L66-L73
-// [4] https://github.com/kubernetes/kubernetes/blob/90295640ef87db9daa0144c5617afe889e7992b2/vendor/github.com/docker/spdystream/spdy/write.go#L302-L304
+// [3] https://github.com/fallen0047/kubernetes/blob/90295640ef87db9daa0144c5617afe889e7992b2/vendor/github.com/docker/spdystream/stream.go#L66-L73
+// [4] https://github.com/fallen0047/kubernetes/blob/90295640ef87db9daa0144c5617afe889e7992b2/vendor/github.com/docker/spdystream/spdy/write.go#L302-L304
 type readerWrapper struct {
 	reader io.Reader
 }

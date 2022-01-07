@@ -19,25 +19,27 @@ import {VersionInfo} from '@api/root.ui';
 // prettier-ignore
 export const version: VersionInfo = {
   'dirty': true,
-  'raw': 'v2.4.1-75-ga46796a-dirty',
-  'hash': 'ga46796a',
-  'distance': 75,
-  'tag': 'v2.4.1',
+  'raw': 'v2.4.1-rc1-0-gf1ad44c-dirty',
+  'hash': 'gf1ad44c',
+  'distance': 0,
+  'tag': 'v2.4.1-rc1',
   'semver': {
     'options': {
       'includePrerelease': false,
       'loose': false
     },
     'loose': false,
-    'raw': 'v2.4.1',
+    'raw': 'v2.4.1-rc1',
     'major': 2,
     'minor': 4,
-    'patch': 0,
-    'prerelease': [],
+    'patch': 1,
+    'prerelease': [
+      'rc1'
+    ],
     'build': [],
-    'version': '2.4.1'
+    'version': '2.4.1-rc1'
   },
-  'suffix': '75-ga46796a-dirty',
-  'semverString': '2.4.1+75.ga46796a',
+  'suffix': '0-gf1ad44c-dirty',
+  'semverString': '2.4.1-rc1+0.gf1ad44c',
   'packageVersion': '2.4.1'
 };

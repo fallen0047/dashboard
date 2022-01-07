@@ -301,7 +301,7 @@ const (
 	// KubernetesAPIApprovalPolicyConformant indicates that an API in *.k8s.io or *.kubernetes.io is or is not approved.  For CRDs
 	// outside those groups, this condition will not be set.  For CRDs inside those groups, the condition will
 	// be true if .metadata.annotations["api-approved.kubernetes.io"] is set to a URL, otherwise it will be false.
-	// See https://github.com/kubernetes/enhancements/pull/1111 for more details.
+	// See https://github.com/fallen0047/enhancements/pull/1111 for more details.
 	KubernetesAPIApprovalPolicyConformant CustomResourceDefinitionConditionType = "KubernetesAPIApprovalPolicyConformant"
 )
 

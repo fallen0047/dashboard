@@ -25,10 +25,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/kubernetes/dashboard/src/app/backend/api"
-	"github.com/kubernetes/dashboard/src/app/backend/errors"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/common"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/dataselect"
+	"github.com/fallen0047/dashboard/src/app/backend/api"
+	"github.com/fallen0047/dashboard/src/app/backend/errors"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/common"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/dataselect"
 )
 
 // EmptyEventList is a empty list of events.

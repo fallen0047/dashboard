@@ -3,18 +3,18 @@ This guide is for anyone interested in contributing design work themselves or co
 
 ## Resources:
 * Get in touch with Dan Romlein (@danielromlein) for general Dashboard UX questions or suggestions of tasks that need design work.
-* Follow the [Getting started guide](https://github.com/kubernetes/dashboard/wiki/Getting-started) to get the most recent version of Dashboard up and running.
+* Follow the [Getting started guide](https://github.com/fallen0047/dashboard/wiki/Getting-started) to get the most recent version of Dashboard up and running.
 * Dashboard is based on Google’s [Material](https://material.io/guidelines/) design system. Refer to their spec for guidance. 
 
 ## Process:
 1. **Have an idea for a new feature** 💡
-2. **Create a _New Issue_ in the [Dashboard repo](https://github.com/kubernetes/dashboard)** ✍️
+2. **Create a _New Issue_ in the [Dashboard repo](https://github.com/fallen0047/dashboard)** ✍️
       * If available, this should include…
         * The why of the new feature (required).
         * Use case(s).
         * User flow(s).
       * Someone from the core Dashboard team will review this new feature, ask clarifying questions, and provide feedback via comments indicating whether or not the feature should be pursued. If they agree it's something that should be done...
-3. **Sign the [CNCF Contributor License Agreement](https://github.com/kubernetes/community/blob/master/CLA.md) (CLA)** 🖋 
+3. **Sign the [CNCF Contributor License Agreement](https://github.com/fallen0047/community/blob/master/CLA.md) (CLA)** 🖋 
 4. **Create a Product Requirement Doc** ✅
      * If you’re comfortable making a [Pull Request](https://help.github.com/articles/creating-a-pull-request/), great! If that process intimidates you though, no problem: write up the Product Requirement in Markdown and attach that to the original issue, and someone from the core team will convert that into a PRD in `dashboard/docs/design/`
      * PRD should include:

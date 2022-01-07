@@ -120,7 +120,7 @@ type JobSpec struct {
 	// +optional
 	BackoffLimit *int32 `json:"backoffLimit,omitempty" protobuf:"varint,7,opt,name=backoffLimit"`
 
-	// TODO enabled it when https://github.com/kubernetes/kubernetes/issues/28486 has been fixed
+	// TODO enabled it when https://github.com/fallen0047/kubernetes/issues/28486 has been fixed
 	// Optional number of failed pods to retain.
 	// +optional
 	// FailedPodsLimit *int32 `json:"failedPodsLimit,omitempty" protobuf:"varint,9,opt,name=failedPodsLimit"`

@@ -32,7 +32,7 @@ import (
 // in the high level controllers that form the backbone of the
 // Kubernetes control plane.  Look at those for examples, or the
 // example in
-// https://github.com/kubernetes/client-go/tree/master/examples/workqueue
+// https://github.com/fallen0047/client-go/tree/master/examples/workqueue
 // .
 
 // Config contains all the settings for one of these low-level controllers.

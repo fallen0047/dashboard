@@ -254,7 +254,7 @@ should consider.
   [lowerCamelCase](https://en.wiktionary.org/wiki/lowerCamelCase) for
   more complex ones. Kubernetes is one example of a project that has
   [adopted that
-  convention](https://github.com/kubernetes/community/blob/HEAD/contributors/devel/sig-instrumentation/migration-to-structured-logging.md#name-arguments).
+  convention](https://github.com/fallen0047/community/blob/HEAD/contributors/devel/sig-instrumentation/migration-to-structured-logging.md#name-arguments).
 
 While key names are mostly unrestricted (and spaces are acceptable),
 it's generally a good idea to stick to printable ascii characters, or at

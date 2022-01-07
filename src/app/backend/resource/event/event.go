@@ -17,7 +17,7 @@ package event
 import (
 	"strings"
 
-	"github.com/kubernetes/dashboard/src/app/backend/resource/common"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/common"
 	api "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 )
@@ -25,7 +25,7 @@ import (
 // FailedReasonPartials  is an array of partial strings to correctly filter warning events.
 // Have to be lower case for correct case insensitive comparison.
 // Based on k8s official events reason file:
-// https://github.com/kubernetes/kubernetes/blob/886e04f1fffbb04faf8a9f9ee141143b2684ae68/pkg/kubelet/events/event.go
+// https://github.com/fallen0047/kubernetes/blob/886e04f1fffbb04faf8a9f9ee141143b2684ae68/pkg/kubelet/events/event.go
 // Partial strings that are not in event.go file are added in order to support
 // older versions of k8s which contained additional event reason messages.
 var FailedReasonPartials = []string{"failed", "err", "exceeded", "invalid", "unhealthy",

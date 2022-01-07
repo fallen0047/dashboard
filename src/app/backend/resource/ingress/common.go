@@ -15,7 +15,7 @@
 package ingress
 
 import (
-	"github.com/kubernetes/dashboard/src/app/backend/resource/dataselect"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/dataselect"
 	v1 "k8s.io/api/networking/v1"
 )
 

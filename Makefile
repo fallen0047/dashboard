@@ -15,7 +15,7 @@ GO_MINOR_VERSION = $(shell go version | cut -c 14- | cut -d' ' -f1 | cut -d'.' -
 MIN_GO_MAJOR_VERSION = 1
 MIN_GO_MINOR_VERSION = 17
 GO_BINARY := $(shell which go)
-MAIN_PACKAGE = github.com/kubernetes/dashboard/src/app/backend
+MAIN_PACKAGE = github.com/fallen0047/dashboard/src/app/backend
 KUBECONFIG ?= $(HOME)/.kube/config
 SIDECAR_HOST ?= http://localhost:8001
 TOKEN_TTL ?= 900
@@ -29,14 +29,14 @@ SYSTEM_BANNER_SEVERITY ?= INFO
 PROD_BINARY = dist/amd64/dashboard
 SERVE_DIRECTORY = .tmp/serve
 SERVE_BINARY = .tmp/serve/dashboard
-RELEASE_IMAGE = kubernetesui/dashboard
+RELEASE_IMAGE = fallen0047/dashboard
 RELEASE_VERSION = v2.4.1
 RELEASE_IMAGE_NAMES += $(foreach arch, $(ARCHITECTURES), $(RELEASE_IMAGE)-$(arch):$(RELEASE_VERSION))
 RELEASE_IMAGE_NAMES_LATEST += $(foreach arch, $(ARCHITECTURES), $(RELEASE_IMAGE)-$(arch):latest)
-HEAD_IMAGE = kubernetesdashboarddev/dashboard
+HEAD_IMAGE = fallen0047/dashboard
 HEAD_VERSION = latest
 HEAD_IMAGE_NAMES += $(foreach arch, $(ARCHITECTURES), $(HEAD_IMAGE)-$(arch):$(HEAD_VERSION))
-ARCHITECTURES = amd64 arm64 arm ppc64le s390x
+ARCHITECTURES = amd64
 
 .PHONY: ensure-version
 ensure-version:

@@ -24,14 +24,14 @@ import (
 	"strings"
 
 	restful "github.com/emicklei/go-restful/v3"
-	"github.com/kubernetes/dashboard/src/app/backend/args"
-	"github.com/kubernetes/dashboard/src/app/backend/auth"
-	authApi "github.com/kubernetes/dashboard/src/app/backend/auth/api"
-	"github.com/kubernetes/dashboard/src/app/backend/auth/jwe"
-	"github.com/kubernetes/dashboard/src/app/backend/client"
-	"github.com/kubernetes/dashboard/src/app/backend/settings"
-	"github.com/kubernetes/dashboard/src/app/backend/sync"
-	"github.com/kubernetes/dashboard/src/app/backend/systembanner"
+	"github.com/fallen0047/dashboard/src/app/backend/args"
+	"github.com/fallen0047/dashboard/src/app/backend/auth"
+	authApi "github.com/fallen0047/dashboard/src/app/backend/auth/api"
+	"github.com/fallen0047/dashboard/src/app/backend/auth/jwe"
+	"github.com/fallen0047/dashboard/src/app/backend/client"
+	"github.com/fallen0047/dashboard/src/app/backend/settings"
+	"github.com/fallen0047/dashboard/src/app/backend/sync"
+	"github.com/fallen0047/dashboard/src/app/backend/systembanner"
 	"k8s.io/client-go/kubernetes/fake"
 )
 

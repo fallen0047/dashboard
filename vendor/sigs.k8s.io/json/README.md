@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This library is a subproject of [sig-api-machinery](https://github.com/kubernetes/community/tree/master/sig-api-machinery#json).
+This library is a subproject of [sig-api-machinery](https://github.com/fallen0047/community/tree/master/sig-api-machinery#json).
 It provides case-sensitive, integer-preserving JSON unmarshaling functions based on `encoding/json` `Unmarshal()`.
 
 ## Compatibility
@@ -30,7 +30,7 @@ and also returns non-fatal strict errors encountered while decoding:
 ### Community, discussion, contribution, and support
 
 You can reach the maintainers of this project via the 
-[sig-api-machinery mailing list / channels](https://github.com/kubernetes/community/tree/master/sig-api-machinery#contact).
+[sig-api-machinery mailing list / channels](https://github.com/fallen0047/community/tree/master/sig-api-machinery#contact).
 
 ### Code of conduct
 

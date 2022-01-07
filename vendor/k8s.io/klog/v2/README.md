@@ -12,14 +12,14 @@ drawbacks that are present in [glog](https://github.com/golang/glog). Ultimately
 
 This makes us unable to solve many use cases without a fork. The factors that contributed to needing feature development are listed below:
 
- * `glog` [presents a lot "gotchas"](https://github.com/kubernetes/kubernetes/issues/61006) and introduces challenges in containerized environments, all of which aren't well documented.
+ * `glog` [presents a lot "gotchas"](https://github.com/fallen0047/kubernetes/issues/61006) and introduces challenges in containerized environments, all of which aren't well documented.
  * `glog` doesn't provide an easy way to test logs, which detracts from the stability of software using it
  * A long term goal is to implement a logging interface that allows us to add context, change output format, etc.
  
 Historical context is available here:
 
- * https://github.com/kubernetes/kubernetes/issues/61006
- * https://github.com/kubernetes/kubernetes/issues/70264
+ * https://github.com/fallen0047/kubernetes/issues/61006
+ * https://github.com/fallen0047/kubernetes/issues/70264
  * https://groups.google.com/forum/#!msg/kubernetes-sig-architecture/wCWiWf3Juzs/hXRVBH90CgAJ
  * https://groups.google.com/forum/#!msg/kubernetes-dev/7vnijOMhLS0/1oRiNtigBgAJ
 
@@ -31,7 +31,7 @@ How to use klog
 - Use `klog.InitFlags(nil)` explicitly for initializing global flags as we no longer use `init()` method to register the flags
 - You can now use `log_file` instead of `log_dir` for logging to a single file (See `examples/log_file/usage_log_file.go`)
 - If you want to redirect everything logged using klog somewhere else (say syslog!), you can use `klog.SetOutput()` method and supply a `io.Writer`. (See `examples/set_output/usage_set_output.go`)
-- For more logging conventions (See [Logging Conventions](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-instrumentation/logging.md))
+- For more logging conventions (See [Logging Conventions](https://github.com/fallen0047/community/blob/master/contributors/devel/sig-instrumentation/logging.md))
 
 **NOTE**: please use the newer go versions that support semantic import versioning in modules, ideally go 1.11.4 or greater.
 

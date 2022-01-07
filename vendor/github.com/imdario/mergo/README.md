@@ -47,7 +47,7 @@ If Mergo is useful to you, consider buying me a coffee, a beer or making a month
 ### Mergo in the wild
 
 - [moby/moby](https://github.com/moby/moby)
-- [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
+- [kubernetes/kubernetes](https://github.com/fallen0047/kubernetes)
 - [vmware/dispatch](https://github.com/vmware/dispatch)
 - [Shopify/themekit](https://github.com/Shopify/themekit)
 - [imdario/zas](https://github.com/imdario/zas)

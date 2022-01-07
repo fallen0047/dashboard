@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kubernetes/dashboard/src/app/backend/api"
-	integrationapi "github.com/kubernetes/dashboard/src/app/backend/integration/api"
+	"github.com/fallen0047/dashboard/src/app/backend/api"
+	integrationapi "github.com/fallen0047/dashboard/src/app/backend/integration/api"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 )

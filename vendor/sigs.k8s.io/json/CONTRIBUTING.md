@@ -34,7 +34,7 @@ If your repo has certain guidelines for contribution, put them here ahead of the
 ## Community, discussion, contribution, and support
 
 You can reach the maintainers of this project via the 
-[sig-api-machinery mailing list / channels](https://github.com/kubernetes/community/tree/master/sig-api-machinery#contact).
+[sig-api-machinery mailing list / channels](https://github.com/fallen0047/community/tree/master/sig-api-machinery#contact).
 
 ## Mentorship
 

@@ -258,7 +258,7 @@ type UserSubject struct {
 // GroupSubject holds detailed information for group-kind subject.
 type GroupSubject struct {
 	// name is the user group that matches, or "*" to match all user groups.
-	// See https://github.com/kubernetes/apiserver/blob/master/pkg/authentication/user/user.go for some
+	// See https://github.com/fallen0047/apiserver/blob/master/pkg/authentication/user/user.go for some
 	// well-known group names.
 	// Required.
 	Name string `json:"name" protobuf:"bytes,1,opt,name=name"`

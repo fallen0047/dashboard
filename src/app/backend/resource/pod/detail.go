@@ -30,13 +30,13 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/kubernetes/dashboard/src/app/backend/api"
-	errorHandler "github.com/kubernetes/dashboard/src/app/backend/errors"
-	metricapi "github.com/kubernetes/dashboard/src/app/backend/integration/metric/api"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/common"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/controller"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/dataselect"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/persistentvolumeclaim"
+	"github.com/fallen0047/dashboard/src/app/backend/api"
+	errorHandler "github.com/fallen0047/dashboard/src/app/backend/errors"
+	metricapi "github.com/fallen0047/dashboard/src/app/backend/integration/metric/api"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/common"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/controller"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/dataselect"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/persistentvolumeclaim"
 )
 
 // PodDetail is a presentation layer view of Kubernetes Pod resource.
@@ -356,7 +356,7 @@ func evalEnvFrom(container v1.Container, configMaps *v1.ConfigMapList, secrets *
 }
 
 // evalValueFrom evaluates environment value from given source. For more details check:
-// https://github.com/kubernetes/kubernetes/blob/d82e51edc5f02bff39661203c9b503d054c3493b/pkg/kubectl/describe.go#L1056
+// https://github.com/fallen0047/kubernetes/blob/d82e51edc5f02bff39661203c9b503d054c3493b/pkg/kubectl/describe.go#L1056
 func evalValueFrom(src *v1.EnvVarSource, container *v1.Container, pod *v1.Pod,
 	configMaps *v1.ConfigMapList, secrets *v1.SecretList) string {
 	switch {

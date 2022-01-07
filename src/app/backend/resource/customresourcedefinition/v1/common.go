@@ -19,9 +19,9 @@ import (
 	apiextensions "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/kubernetes/dashboard/src/app/backend/resource/common"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/customresourcedefinition/types"
-	"github.com/kubernetes/dashboard/src/app/backend/resource/dataselect"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/common"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/customresourcedefinition/types"
+	"github.com/fallen0047/dashboard/src/app/backend/resource/dataselect"
 )
 
 type CustomResourceDefinitionCell apiextensions.CustomResourceDefinition

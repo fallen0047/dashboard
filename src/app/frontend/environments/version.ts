@@ -18,10 +18,10 @@ import {VersionInfo} from '@api/root.ui';
 
 // prettier-ignore
 export const version: VersionInfo = {
-  'dirty': true,
-  'raw': 'v2.4.1-rc1-0-gf1ad44c-dirty',
-  'hash': 'gf1ad44c',
-  'distance': 0,
+  'dirty': false,
+  'raw': 'v2.4.1-rc1-9-gb5ec07f',
+  'hash': 'gb5ec07f',
+  'distance': 9,
   'tag': 'v2.4.1-rc1',
   'semver': {
     'options': {
@@ -39,7 +39,7 @@ export const version: VersionInfo = {
     'build': [],
     'version': '2.4.1-rc1'
   },
-  'suffix': '0-gf1ad44c-dirty',
-  'semverString': '2.4.1-rc1+0.gf1ad44c',
+  'suffix': '9-gb5ec07f',
+  'semverString': '2.4.1-rc1+9.gb5ec07f',
   'packageVersion': '2.4.1'
 };
